@@ -13,7 +13,7 @@
 # Example: ./setup-spark-cluster.sh 123.45.67.89
 ################################################################################
 
-set -e  # Exit on any error
+# set -e  # Exit on any error
 
 # Colors for output
 RED='\033[0;31m'
@@ -779,7 +779,7 @@ log_info "Checking worker processes..."
 WORKER_COUNT=0
 for WORKER_IP in $WORKER1_PUBLIC_IP $WORKER2_PUBLIC_IP $WORKER3_PUBLIC_IP; do
     if ssh $SSH_OPTS ubuntu@$WORKER_IP 'jps | grep Worker' 2>/dev/null; then
-        ((WORKER_COUNT++))
+        ((WORKER_COUNT += 1))
     fi
 done
 log_success "Workers running: $WORKER_COUNT/3"

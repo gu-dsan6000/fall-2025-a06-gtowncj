@@ -1,0 +1,11 @@
+log_entry,log_level
+17/06/08 15:36:39 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 10845,INFO
+"17/06/08 10:44:42 INFO storage.MemoryStore: Block broadcast_935 stored as values in memory (estimated size 10.4 KB, free 1740.3 KB)",INFO
+17/02/01 15:22:19 INFO executor.Executor: Finished task 742.0 in stage 219.0 (TID 36361). 2410 bytes result sent to driver,INFO
+17/06/09 10:03:16 INFO executor.Executor: Running task 16.0 in stage 1423.0 (TID 57016),INFO
+"17/06/06 22:03:30 INFO python.PythonRunner: Times: total = 38, boot = -56, init = 94, finish = 0",INFO
+"17/02/01 17:22:19 INFO python.PythonRunner: Times: total = 568, boot = -160, init = 162, finish = 566",INFO
+17/06/09 12:19:49 INFO storage.BlockManager: Found block rdd_12960_31 locally,INFO
+17/06/08 14:16:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 106865,INFO
+17/06/08 14:16:09 INFO executor.Executor: Running task 34.0 in stage 2665.0 (TID 106674),INFO
+17/06/08 11:36:33 INFO storage.BlockManager: Found block rdd_2_17 locally,INFO
